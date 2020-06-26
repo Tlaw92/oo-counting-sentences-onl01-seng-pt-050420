@@ -15,7 +15,6 @@ class String
   def count_sentences
     self.(/[.!?]/).reject {|x| x.empty?}.size
   end 
-  
 end   
 
 
