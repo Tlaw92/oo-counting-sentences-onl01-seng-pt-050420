@@ -13,7 +13,7 @@ class String
   end   
   
   def count_sentences
-    self.
+    self.(/[.!?]/).reject {|x| x.empty?}.size
   end 
   
 end   
